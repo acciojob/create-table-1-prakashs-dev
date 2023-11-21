@@ -3,7 +3,7 @@ function insert_Row() {
   const rowCreate = document.createElement("tr");
   for (let i = 1; i <= 2; i++) {
     const cellCreate = document.createElement("td");
-    cellCreate.innerText = `New Cell${i}`;
+    cellCreate.innerText = "New Cell"+i;
     rowCreate.appendChild(cellCreate);
   }
   const parent = document.getElementById("sampleTable");
